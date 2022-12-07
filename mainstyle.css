@@ -1,0 +1,170 @@
+.body {
+  background-color: blanchedalmond;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+}
+.col {
+  column-count: 3;
+  column-rule: 2px solid black;
+  column-gap: 50px;
+  background-color: blanchedalmond;
+  font-size: 18px;
+  border: 2px solid black;
+}
+img{ border:5px solid ;
+ margin-top: 15px;
+    width: 300px;
+    height: 200px;
+    margin-left: 70px;
+}
+h3 {
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 23px;
+  
+}
+.yt1{ margin-top: 15px;
+
+}
+.topnav {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+nav {
+  float: left;
+  margin: 0 auto;
+  position: relative;
+  height: 50px;
+  font-size: 15px;
+  box-sizing: border-box;
+  background-color: black;
+  width: 100%;
+}
+nav a {
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+background {
+  background-color: beige;
+}
+nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all 0.5s ease 0s;
+}
+a:nth-child(1) {
+  width: 100px;
+}
+a:nth-child(2) {
+  width: 120px;
+}
+a:nth-child(3) {
+  width: 100px;
+}
+a:nth-child(4) {
+  width: 70px;
+}
+a:nth-child(5) {
+  width: 120px;
+}
+a:nth-child(6) {
+  width: 90px;
+}
+a:nth-child(7) {
+  width: 150px;
+}
+a:nth-child(8) {
+  width: 115px;
+}
+a:nth-child(9) {
+  width: 30px;
+}
+a:nth-child(10) {
+  width: 50px;
+}
+nav .start-HOME,
+a:nth-child(1):hover ~ .animation {
+  width: 100px;
+  height: 50px;
+  left: 0px;
+  background-color: gray;
+}
+nav .start-MRMORALE,
+a:nth-child(2):hover ~ .animation {
+  width: 120px;
+  height: 50px;
+  left: 100px;
+  background-color: gray;
+}
+nav.start-GOOD_KID,
+a:nth-child(3):hover ~ .animation {
+  width: 100px;
+  height: 50px;
+  left: 220px;
+  background-color: gray;
+}
+nav.start-TPAB,
+a:nth-child(4):hover ~ .animation {
+  width: 70px;
+  height: 50px;
+  left: 320px;
+  background-color: gray;
+}
+nav.start-UNMASTERED,
+a:nth-child(5):hover ~ .animation {
+  width: 120px;
+  height: 50px;
+  left: 390px;
+  background-color: gray;
+}
+nav .start-DAMN,
+a:nth-child(6):hover ~ .animation {
+  width: 90px;
+  height: 50px;
+  left: 510px;
+  background-color: gray;
+}
+nav .start-BLACK_PANTHER,
+a:nth-child(7):hover ~ .animation {
+  width: 150px;
+  height: 50px;
+  left: 600px;
+  background-color: gray;
+}
+nav .start-SECTION,
+a:nth-child(8):hover ~ .animation {
+  width: 115px;
+  height: 50px;
+  left: 745px;
+  background-color: gray;
+}
+nav .start-OD,
+a:nth-child(9):hover ~ .animation {
+  width: 40px;
+  height: 50px;
+  left: 860px;
+  background-color: gray;
+}
+nav .start-C4,
+a:nth-child(10):hover ~ .animation {
+  width: 30px;
+  height: 50px;
+  left: 905px;
+  background-color: gray;
+}
