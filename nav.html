@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sugma news contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="nav.css">
+</head>
+    <body>
+        <div class="navbar">
+            <a class="active" href="main.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">About 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="main.html">About Me</a>
+                    <a href="#about-company">About Company</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Services
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#web-design">Web Design</a>
+                    <a href="#seo">SEO</a>
+                    <a href="#social-media">Social Media</a>
+                </div>
+            </div>
+            <a href="nav.html">Contact</a>
+        </div>
+        
+            <form action="#" method="post">
+                <div class="container">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name.." required>
+        
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email.." required>
+        
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+        
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+   </body>
+</html>
